@@ -3,10 +3,9 @@
 }
 
 .app-sidenav-content {
-    display: flex;
     height: 100%;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+   display: flex;
 }
 .app-sidenav-container {
     flex: 1;
@@ -15,4 +14,7 @@
     min-width: 100%;
     min-height: 100%;
     position: fixed;
+}
+.wrapper {
+    margin: 10px;
 }
